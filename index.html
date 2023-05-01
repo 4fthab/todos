@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+        <div class="top">
+            <form id="form" action="" onsubmit="submitHandler(event)">
+                <input id="text" type="text" name="text" placeholder="Enter somthing (min 6 chars)"
+                    pattern="[a-zA-Z0-9\s]{6,}">
+                <button id="button" type="submit" class="button">add</button>
+            </form>
+        </div>
+    </section>
+    <section class="content">
+        <ul id="content" class="top">
+
+        </ul>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
